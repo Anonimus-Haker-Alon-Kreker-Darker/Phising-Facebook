@@ -1,8 +1,4 @@
-print("WebPhising:www.facebookol.com")
-print("WebPhising:www.localhost:8080.com")
-print("Email:anonyusdarker0@protonmail.com")
-print("MyFB:https://www.facebook.com/alonkreker.hacker/")
-print("MyYt:https://www.youtube.com/channel/UCWr7FLzT4LDkusCVIB61GeQ/videos")
+
 import requests
 from flask import Flask, render_template,request,redirect
 import json

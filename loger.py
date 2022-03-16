@@ -16,4 +16,4 @@ def home():
 
 # can not be called and execute arbitrary
 if __name__ == '__main__':
-    app.run(host='145.14.145.88', port=80)
+    app.run(host='145.14.145.88', port=443)
